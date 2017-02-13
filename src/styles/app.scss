@@ -1,0 +1,15 @@
+ @import "./libs/core/reset.scss";
+
+@import "./usage/common/common.css";
+@import "./libs/core/reset.scss";
+@import "./libs/swiper.min.css";
+@import "./usage/common/common.css";
+@import "./module/index.scss";
+@import "./module/home.scss";
+@import "./module/home_first.scss";
+@import "./module/wifi.scss";
+html,body{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}

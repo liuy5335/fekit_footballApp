@@ -1,0 +1,166 @@
+/* ------ 引导页 ------ */
+#container{
+	@include flexbox();
+	overflow: hidden;
+	img{
+		width:100%;
+		height: 100%;
+	}
+	.sld4{
+		position: relative;
+		.ydp{
+			position: absolute;
+			right:18%;
+			bottom:11%;
+			padding:2px 16px;
+			background: orange;
+			color:#fff;
+			font-size: 16px;
+			border-radius: 10px;
+		}
+	}
+}
+
+/* --------- home页 --------- */
+/*.home{
+	@include flexbox();
+	@include flex-direction(column);
+	width:100%;
+	height: 100%;
+
+	.home_section{
+		@include flex(1);
+		width: 100%;
+	}
+
+	.home_footer{
+		background: #fff;
+		@include flexbox();
+		width: 100%;
+		height: 44px;
+		text-align:center;
+		border-top:1px #ccc solid;
+		p{
+			@include flex();
+			color:#999;
+			&.home_footer_active{
+				color:green;
+			}
+			&:nth-of-type(3){
+				width: 20px;
+				height: 50px;
+				line-height: 40px;
+				border:1px #ccc solid;
+				border-radius: 50px;
+				background: #fff;
+				position: relative;
+				top:-10px;
+				i{
+					font-size: 30px;
+				}
+			};
+			i{
+				font-size: 18px;
+			}
+			span{
+				display: block;
+			}
+		}
+	}
+}*/
+/* ----------- home_first ---------- */
+/*.home_first{
+	width: 100%;
+	height: 100%;
+
+	.home_first_header{
+		width: 100%;
+		height: 44px;
+		background: #0cc042;
+		position: relative;
+		color:#fff;
+		@include flexbox();
+		
+		i{
+			line-height: 44px;
+		}
+		.header-ico-left{
+			position: absolute;
+			left:10px;
+		}
+		.header-ico-right{
+			position: absolute;
+			right:10px;
+		}
+		p{
+			width: 40%;
+			height: 30px;
+			margin: auto;
+			text-align: center;
+			background:#3acd65;
+			border-radius:15px;
+			overflow: hidden;
+			span{
+				float: left;
+				width: 50%;
+				line-height: 30px;
+				&.span-active{
+					background: #69d685;
+				}
+			}
+		}
+	}
+}*/
+/* --------- 首页 热点 -------- */
+/*.home_first_section{
+	
+	ul{
+		@include flexbox();
+		width: 100%;
+		margin-bottom: 6px;
+		li{
+			@include flex();
+			padding:8px;
+			text-align: center;
+			&.football_active{
+				color:#0cc042;
+				border-bottom:1px #0cc042 solid;
+			}
+		}
+	}
+
+	.sliderOne{
+		@include flexbox();
+		@include flex-direction(row);
+		flex-wrap: wrap;
+		overflow: auto;
+		dl{
+			width: 50%;
+			dt{
+				img{
+					width: 100%;
+					height: auto;
+				}
+			}
+		}
+	}
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
